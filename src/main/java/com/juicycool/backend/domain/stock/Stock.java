@@ -22,23 +22,25 @@ public class Stock {
 
     private Integer code; // 주식 코드
 
-    private Integer marketPrice; // 시가
+    private Long marketPrice; // 시가
 
-    private Integer highPrice; // 고가
+    private Long headPrice;
 
-    private Integer lowPrice; // 저가
+    private Long highPrice; // 고가
+
+    private Long lowPrice; // 저가
 
     private Long presentPrice; // 현재가
 
-    private Integer contractPrice; // 체결가
+    private Long contractPrice; // 체결가
 
-    private Integer fluctuationComparedPreviousDay; // 전일 대비 등락
+    private Long fluctuationComparedPreviousDay; // 전일 대비 등락
 
     private Long marketCapitalization; // 시가 총액
 
-    private Integer transactionVolume; // 거래량
+    private Long transactionVolume; // 거래량
 
-    private Integer transactionPrice; // 거래 대금
+    private Long transactionPrice; // 거래 대금
 
 
 
